@@ -1,4 +1,4 @@
--- https://adventofcode.com/2021/day/12
+-- https://adventofcode.com/2021/day/13
 
 local map = {}
 local max_x, max_y = 0, 0

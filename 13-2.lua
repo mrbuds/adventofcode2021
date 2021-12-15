@@ -1,4 +1,4 @@
--- https://adventofcode.com/2021/day/12
+-- https://adventofcode.com/2021/day/13
 
 local map = {}
 local max_x, max_y = 0, 0
@@ -52,7 +52,7 @@ local function print_map()
   for y = 0, max_y do
     local row = ""
     for x = 0, max_x do
-      row = row .. (map[y] and map[y][x] and "#" or ".")
+      row = row .. (map[y] and map[y][x] and "#" or " ")
     end
     print(row)
   end
